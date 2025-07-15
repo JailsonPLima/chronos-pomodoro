@@ -1,5 +1,7 @@
 import { Heading } from './components/Heading'
 
+import { TimerIcon } from 'lucide-react'
+
 import './styles/theme.css'
 
 import './styles/global.css'
@@ -7,7 +9,12 @@ import './styles/global.css'
 export const App = () => {
   return (
     <>
-      <Heading>Hello World 1!</Heading>
+      <Heading>
+        Hello World 1!
+        <button>
+          <TimerIcon />
+        </button>
+      </Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
         temporibus perspiciatis odio harum, pariatur eum amet eaque perferendis

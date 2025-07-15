@@ -2,10 +2,10 @@ import type { ReactNode } from 'react'
 
 import styles from './Heading.module.css'
 
-interface IHeading {
+interface IHeadingProps {
   children: ReactNode
 }
 
-export const Heading = (props: IHeading) => {
-  return <h1 className={styles.cyan}>{props.children}</h1>
+export const Heading = ({ children }: IHeadingProps) => {
+  return <h1 className={styles.heading}>{children}</h1>
 }
