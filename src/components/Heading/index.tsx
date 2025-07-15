@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-import styles from './Heading.module.css'
+import styles from './styles.module.css'
 
 interface IHeadingProps {
   children: ReactNode
