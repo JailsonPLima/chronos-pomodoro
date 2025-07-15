@@ -5,11 +5,9 @@ import './styles/theme.css'
 import './styles/global.css'
 
 export const App = () => {
-  console.log('Hello')
-
   return (
     <>
-      <Heading />
+      <Heading>Hello World 1!</Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
         temporibus perspiciatis odio harum, pariatur eum amet eaque perferendis
